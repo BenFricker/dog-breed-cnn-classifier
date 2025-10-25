@@ -17,6 +17,7 @@ A deep learning project implementing a Convolutional Neural Network for classify
 ---
 
 ## 📋 Table of Contents
+## 📋 Table of Contents
 - [Overview](#overview)
 - [Quick Start](#quick-start)
 - [Features](#features)
@@ -29,8 +30,12 @@ A deep learning project implementing a Convolutional Neural Network for classify
 - [Future Improvements](#future-improvements)
 - [Real-World Applications](#real-world-applications)
 - [Project Presentation](#project-presentation)
+- [Project Context](#project-context)
+- [Technical Skills Demonstrated](#technical-skills-demonstrated)
+- [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
+- [Acknowledgments](#acknowledgments)
 
 ## 🎯 Overview
 
