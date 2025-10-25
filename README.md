@@ -29,13 +29,10 @@ A deep learning project implementing a Convolutional Neural Network for classify
 - [Future Improvements](#future-improvements)
 - [Real-World Applications](#real-world-applications)
 - [Project Presentation](#project-presentation)
-- [Project Context](#project-context)
-- [Technical Skills Demonstrated](#technical-skills-demonstrated)
-- [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
-- [Acknowledgments](#acknowledgments)
 
+<a id="overview"></a>
 ## 🎯 Overview
 
 This project addresses the challenging task of fine-grained visual classification of 120 dog breeds from the Stanford Dogs dataset. The model leverages transfer learning with a pre-trained ResNet-50 architecture to achieve production-ready performance with efficient training time.
@@ -46,6 +43,7 @@ This project addresses the challenging task of fine-grained visual classificatio
 - ✅ 1.1M trainable parameters (frozen base model)
 - ✅ Comprehensive evaluation with confusion matrices and classification reports
 
+<a id="quick-start"></a>
 ## ⚡ Quick Start
 
 ```bash
@@ -65,6 +63,7 @@ python Dog-Breed-CNN.py
 
 **That's it!** The script will train the model, generate visualizations, and save the best model checkpoint.
 
+<a id="features"></a>
 ## ✨ Features
 
 - **Transfer Learning**: Utilizes pre-trained ResNet-50 (ImageNet weights)
@@ -74,10 +73,11 @@ python Dog-Breed-CNN.py
 - **Comprehensive Metrics**: Classification reports, confusion matrices, training curves
 - **Production Ready**: Clean, documented code with proper error handling
 
+<a id="architecture"></a>
 ## 🏗️ Architecture
 
 <p align="center">
-  <img src="architecture_diagram.png" alt="Architecture Overview" width="85%">
+  <img src="images/architecture_diagram.png" alt="Architecture Overview" width="85%">
 </p>
 <p align="center"><i>Complete pipeline: Model Architecture → Data Pipeline → Training Strategy</i></p>
 
@@ -101,6 +101,7 @@ Linear(512 → 120)
 - **Epochs**: 10
 - **Data Split**: 70% Train / 15% Validation / 15% Test
 
+<a id="results"></a>
 ## 📊 Results
 
 ### Performance Metrics
@@ -116,7 +117,7 @@ Linear(512 → 120)
 ### Training Progression
 
 <p align="center">
-  <img src="training_progression_table.png" alt="Training Progression" width="90%">
+  <img src="images/training_progression_table.png" alt="Training Progression" width="90%">
 </p>
 
 **Key Observations:**
@@ -128,7 +129,7 @@ Linear(512 → 120)
 ### Detailed Performance Analysis
 
 <p align="center">
-  <img src="test_performance_results.png" alt="Breed-Specific Performance" width="90%">
+  <img src="images/test_performance_results.png" alt="Breed-Specific Performance" width="90%">
 </p>
 
 **Top Performing Breeds (F1 > 0.97):**
@@ -141,6 +142,7 @@ Linear(512 → 120)
 
 The model shows consistent performance across all 120 classes with minimal overfitting, as test accuracy (83.16%) closely aligns with validation performance (83.67%).
 
+<a id="installation"></a>
 ## 🚀 Installation
 
 ### Prerequisites
@@ -161,6 +163,7 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
+<a id="usage"></a>
 ## 💻 Usage
 
 ### Step 1: Download the Dataset
@@ -249,6 +252,7 @@ After training completes, you'll find these files in your directory:
 **Problem:** `ModuleNotFoundError: No module named 'torch'`
 - **Solution:** Run `pip install -r requirements.txt`
 
+<a id="dataset"></a>
 ## 📁 Dataset
 
 **Stanford Dogs Dataset**
@@ -266,6 +270,7 @@ After training completes, you'll find these files in your directory:
 - Color Jitter: ±20% brightness/contrast
 - ImageNet Normalization
 
+<a id="training-details"></a>
 ## 🎓 Training Details
 
 ### Key Design Decisions
@@ -281,10 +286,11 @@ After training completes, you'll find these files in your directory:
 - Minimal overfitting - test accuracy closely matches validation
 - Consistent performance across all 120 classes
 
+<a id="future-improvements"></a>
 ## 🔮 Future Improvements
 
 <p align="center">
-  <img src="conclusion.png" alt="Future Improvements and Applications" width="85%">
+  <img src="images/conclusion.png" alt="Future Improvements and Applications" width="85%">
 </p>
 
 ### Architecture Enhancements
@@ -300,6 +306,7 @@ After training completes, you'll find these files in your directory:
 
 **Target Accuracy**: 86-90%
 
+<a id="real-world-applications"></a>
 ## 🎯 Real-World Applications
 
 1. **Veterinary Services**: Automated breed identification for health screening
@@ -307,6 +314,7 @@ After training completes, you'll find these files in your directory:
 3. **Lost Pet Recovery**: Identification systems for reunification
 4. **Mobile Applications**: Consumer-facing breed recognition apps
 
+<a id="project-presentation"></a>
 ## 📖 Project Presentation
 
 A comprehensive presentation covering the project's methodology, results, and analysis is included in this repository:
@@ -319,6 +327,7 @@ The presentation includes:
 - Complete results analysis with visualizations
 - Real-world applications and future directions
 
+<a id="project-context"></a>
 ## 📝 Project Context
 
 This project was developed as part of a Foundations of Artificial Intelligence course. Despite being assigned as a group project, I completed all aspects independently:
@@ -332,6 +341,7 @@ This project was developed as part of a Foundations of Artificial Intelligence c
 
 **Academic Note**: I received 53.5% for this project as I was the only contributing member out of a 6-person team. Non-contributing members received 0% as documented by the course coordinator.
 
+<a id="technical-skills-demonstrated"></a>
 ## 📚 Technical Skills Demonstrated
 
 - **Deep Learning**: CNN architectures, transfer learning, fine-tuning
@@ -341,6 +351,7 @@ This project was developed as part of a Foundations of Artificial Intelligence c
 - **Software Engineering**: Clean code, documentation, version control
 - **Communication**: Technical presentation and reporting
 
+<a id="contributing"></a>
 ## 🤝 Contributing
 
 While this is an academic project, I welcome feedback and suggestions! Feel free to:
@@ -348,10 +359,12 @@ While this is an academic project, I welcome feedback and suggestions! Feel free
 - Suggest improvements or optimizations
 - Share your results if you use this code
 
+<a id="license"></a>
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
+<a id="contact"></a>
 ## 👤 Contact
 
 **Benjamin Fricker**
@@ -365,6 +378,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
+<a id="acknowledgments"></a>
 ## 🙏 Acknowledgments
 
 - Stanford Dogs Dataset creators
