@@ -73,7 +73,7 @@ python Dog-Breed-CNN.py
 ## 🏗️ Architecture
 
 <p align="center">
-  <img src="images/architecture_diagram.png" alt="Architecture Overview" width="85%">
+  <img src="architecture_diagram.png" alt="Architecture Overview" width="85%">
 </p>
 <p align="center"><i>Complete pipeline: Model Architecture → Data Pipeline → Training Strategy</i></p>
 
@@ -112,7 +112,7 @@ Linear(512 → 120)
 ### Training Progression
 
 <p align="center">
-  <img src="images/training_progression_table.png" alt="Training Progression" width="90%">
+  <img src="training_progression_table.png" alt="Training Progression" width="90%">
 </p>
 
 **Key Observations:**
@@ -124,7 +124,7 @@ Linear(512 → 120)
 ### Detailed Performance Analysis
 
 <p align="center">
-  <img src="images/test_performance_results.png" alt="Breed-Specific Performance" width="90%">
+  <img src="test_performance_results.png" alt="Breed-Specific Performance" width="90%">
 </p>
 
 **Top Performing Breeds (F1 > 0.97):**
@@ -280,7 +280,7 @@ After training completes, you'll find these files in your directory:
 ## 🔮 Future Improvements
 
 <p align="center">
-  <img src="images/conclusion.png" alt="Future Improvements and Applications" width="85%">
+  <img src="conclusion.png" alt="Future Improvements and Applications" width="85%">
 </p>
 
 ### Architecture Enhancements
