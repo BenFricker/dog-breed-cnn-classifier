@@ -17,7 +17,6 @@ A deep learning project implementing a Convolutional Neural Network for classify
 ---
 
 ## 📋 Table of Contents
-## 📋 Table of Contents
 - [Overview](#overview)
 - [Quick Start](#quick-start)
 - [Features](#features)
