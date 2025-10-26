@@ -94,7 +94,7 @@ if __name__ == '__main__':
     print(f"Using device: {device}")
 
     # Create Local Path - UPDATE THIS TO YOUR PATH
-    data_dir = r'C:\Users\benwf\OneDrive\Desktop\UOW\UOW\Foundations of Artificial Intelligence\Assessments\Group Project\images'
+    data_dir = r'Project\images'
 
     print(f"\n✅ Dataset path: {data_dir}")
     print(f"✅ Path exists: {os.path.exists(data_dir)}")
@@ -383,4 +383,5 @@ if __name__ == '__main__':
             plt.show()
 
     print("\n✅ All visualizations complete!")
+
     print(f"Model and results saved in current directory.")
