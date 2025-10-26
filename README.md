@@ -370,7 +370,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 **Benjamin Fricker**
 - GitHub: [@BenFricker](https://github.com/BenFricker)
 - LinkedIn: [Connect with me on LinkedIn](https://www.linkedin.com/in/benfricker/)
-- Email: your.email@example.com
 
 **Current Focus**: Double Major in Artificial Intelligence & Cybersecurity (Computer Science)
 
