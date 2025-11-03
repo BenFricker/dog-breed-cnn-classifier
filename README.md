@@ -339,7 +339,7 @@ This project was developed as part of a Foundations of Artificial Intelligence c
 - ✅ 15-minute technical presentation
 - ✅ Complete documentation
 
-**Academic Note**: I received 53.5% for this project as I was the only contributing member out of a 6-person team. Non-contributing members received 0% as documented by the course coordinator.
+**Academic Note**: I received 93%+ for this project. I was the only contributing member out of a 6-person team. Non-contributing members received 0% as documented by the course coordinator.
 
 <a id="technical-skills-demonstrated"></a>
 ## 📚 Technical Skills Demonstrated
